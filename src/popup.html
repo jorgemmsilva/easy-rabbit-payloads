@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Easy Rabbit Payloads</title>
+  <script src="script.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div id="content-wrapper">
+    <div id="content">
+      <div class="wrapper flex">
+        <h1 id="title">Easy Rabbit Payloads</h1>
+        <button id="toggle-import-export-btn">Import/Export</button>
+      </div>
+
+      <div id="save-payload-wrapper" class="wrapper">
+        <input id="save-payload-input" type="text" placeholder="Payload Name"></input>
+        <button id="save-payload-btn">Save current Payload</button>
+      </div>
+
+      <div id="payload-list" class="wrapper">
+      </div>
+      
+      <div id="load-payload-wrapper">
+          <button id="load-payload-btn">Load Selected Payload</button>
+      </div>
+
+    </div>
+    <div id="import-export-payloads" hidden>
+        <textarea id="import-export-payloads-input"></textarea>
+        <div class="wrapper">
+          <button id="import-export-payloads-cancel-btn">Cancel</button>
+          <button id="import-export-payloads-save-btn">Save</button>
+        </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

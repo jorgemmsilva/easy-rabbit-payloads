@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Easy-Rabbit-Payloads",
+  "description": "Easily manage and use rabbit payloads",
+  "version": "1",
+  "author": "Jorge Silva",
+  "browser_action": {
+    "default_title": "Rabbit Payloads",
+    "default_icon": "src/icons/icon.png",
+    "default_popup": "src/popup.html"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["src/script.js"],
+    "run_at": "document_end"
+  },
+  "permissions": ["activeTab", "storage"]
+}

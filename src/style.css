@@ -1,0 +1,83 @@
+
+#content-wrapper {
+  width: 500px;
+  height: 500px; 
+}
+#content {
+  width: 100%;
+  height: 100%;
+  display: flex;  
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.payload-name {
+  align-self: center;  
+  flex-grow: 1;
+}
+
+#title {
+  flex-grow: 1;
+}
+
+#toggle-import-export-btn {
+  align-self: center;
+}
+
+.payload-elem-wrapper{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+}
+
+#save-payload-wrapper {
+  padding-bottom: 10px;
+}
+
+#save-payload-input {
+  width: 360px;
+}
+
+#payload-list{
+  overflow-x: scroll;
+}
+
+#load-payload-wrapper {
+  height: 100px;
+  align-self: center;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 10px;
+}
+
+.selected:before {
+  content: "";
+  background-image: url(/icons/payload-selected.svg);
+  width: 20px;
+  height: 20px;
+  float: left;
+  top: 1px;
+  position: relative;
+  padding-right: 3px;
+}
+
+#import-export-payloads {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+}
+
+#import-export-payloads-input {
+  width: 100%;
+  height: 450px;
+}
